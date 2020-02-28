@@ -1,0 +1,294 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+  background-color: #131313;
+  font-family: Nunito Sans;
+  font-style: normal;
+  font-weight: normal;
+  margin: 0;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.header {
+  background: #131313;
+  position: fixed;
+  z-index: 10;
+  width: 100%;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.logo {
+  color: #e3b873;
+  font-size: 11px;
+  line-height: 15px;
+  text-transform: uppercase;
+  margin: 37px 95px 36px 92px;
+}
+
+.nav {
+  display: flex;
+  list-style: none;
+  padding-left: 0;
+  text-transform: uppercase;
+  font-size: 11px;
+  line-height: 15px;
+  margin: 0;
+}
+
+.nav > li {
+  margin-right: 47px;
+}
+
+.nav > li > a {
+  color: #ffffff;
+  text-decoration: none;
+  list-style: none;
+}
+
+.tel {
+  font-size: 11px;
+  line-height: 15px;
+  color: #e3b873;
+  text-decoration-line: underline;
+  margin-left: 67px;
+}
+
+.header__btn {
+  color: white;
+  background: #e3b873;
+  box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
+  border-radius: 2px;
+  text-transform: uppercase;
+  padding: 13px 33px;
+  margin: 24px 90px 22px 45px;
+  outline: 0; /* толщина границ*/
+  border: 0;
+  font-style: italic;
+  font-size: 11px;
+  line-height: 15px;
+}
+
+.image-background {
+  background-image: url(../images/background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 707px;
+  padding-top: 194px;
+  box-shadow: 0 0 0 1000px rgba(0, 0, 0, 0.7) inset;
+}
+
+.container-content {
+  display: flex;
+  max-width: 676px;
+  margin-left: 134px;
+  flex-direction: column;
+}
+
+.title {
+  color: white;
+  font-size: 40px;
+  line-height: 53px;
+  text-transform: uppercase;
+  margin: 0;
+  font-family: Yeseva One;
+}
+
+.title span {
+  color: #e3b873;
+}
+
+.text {
+  color: #ffffff;
+  font-size: 22px;
+  line-height: 36px;
+  max-width: 504px;
+  max-height: 84px;
+  margin: 19px 0 41px 0;
+}
+
+.btn > button {
+  color: white;
+  background: transparent;
+  border: 1px solid #ffffff;
+  cursor: pointer;
+  box-shadow: 0;
+  padding: 19px 0 20px 0;
+  margin-right: 20px;
+  font-style: italic;
+  text-align: center;
+  border-radius: 2px;
+  font-size: 11px;
+  line-height: 15px;
+  width: 207px;
+  height: 51px;
+}
+
+.color-background {
+  height: 1074px;
+  padding-top: 107px;
+  padding-bottom: 100px;
+}
+
+.nav-two {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  justify-content: flex-end;
+  margin-right: 191px;
+}
+
+.nav-two > li {
+  font-family: Yeseva One;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.3);
+  margin-right: 60px;
+  align-items: center;
+  cursor: pointer;
+}
+
+.content {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin-left: 134px;
+}
+
+.content-image {
+}
+
+.title-h2 {
+  font-family: Yeseva One;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 27px;
+  line-height: 37px;
+  letter-spacing: -0.07em;
+  text-transform: uppercase;
+  color: #e3b873;
+  margin: 53px 0 34px 0;
+}
+
+.texet-content {
+  font-size: 14px;
+  line-height: 27px;
+  color: #ffffff;
+  max-width: 442px;
+  max-height: 82px;
+  margin: 0;
+}
+
+.content-image {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.image-slaider {
+  width: 679px;
+  height: 482px;
+  margin-top: 53px;
+  margin-left: 50px;
+}
+
+.title-h3 {
+  font-family: Yeseva One;
+  color: #e3b873;
+  font-size: 18px;
+  line-height: 25px;
+  text-transform: uppercase;
+  margin: 34px 0 9px 0;
+}
+
+.content-p {
+  font-size: 13px;
+  line-height: 21px;
+  color: #ffffff;
+  margin: 0;
+}
+.content-two {
+  display: flex;
+  margin-top: -300px;
+  margin-left: 134px;
+  max-width: 800px;
+}
+
+.content-left {
+  display: flex;
+
+  flex-direction: column;
+}
+
+.content-right {
+  display: flex;
+  margin-left: 34px;
+  flex-direction: column;
+}
+
+.repair {
+  margin-top: 55px;
+}
+
+.arrow {
+  display: flex;
+  margin: -25px 0 0 136px;
+  max-width: 223px;
+
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.circle1 {
+  margin-left: 19px;
+  color: #ffffff;
+  font-size: 18px;
+}
+
+.circle2 {
+  margin: 0 8px;
+  font-size: 18px;
+}
+
+.circle3 {
+  margin-right: 19px;
+  font-size: 18px;
+}
+
+/* step 3 */
+
+.Whitebackground {
+  background: #e5e5e5;
+  height: 2540px;
+  margin-top: -216px;
+  z-index: -1;
+}
+
+.headingwhite {
+  display: flex;
+  z-index: 2;
+  position: relative;
+}
+
+.control {
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: Yeseva One;
+  color: #ffffff;
+  margin: 0;
+}
